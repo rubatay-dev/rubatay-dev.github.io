@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roberto Ubatay Jr. | .NET Developer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background: #f8f9fa;
+    }
+    .container {
+      max-width: 950px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+    }
+    h1, h2, h3, h4 {
+      color: #1a1a1a;
+    }
+    h1 {
+      margin-bottom: 5px;
+      font-size: 2.5rem;
+    }
+    .subtitle {
+      color: #007bff;
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+    .badge {
+      display: inline-block;
+      background: #e7f1ff;
+      color: #007bff;
+      padding: 6px 12px;
+      margin: 4px 4px 4px 0;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: bold;
+      border: 1px solid #cfe2ff;
+    }
+    .badge-tech {
+        background: #333;
+        color: #fff;
+    }
+    .project-card {
+      border: 1px solid #e0e0e0;
+      padding: 25px;
+      border-radius: 8px;
+      background: #fff;
+      margin-bottom: 30px;
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+        border-color: #007bff;
+    }
+    .api-highlight {
+        border-left: 5px solid #68217a;
+        background: #fcfaff;
+    }
+  
+    .screenshots {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 12px;
+      margin-top: 15px;
+      padding-bottom: 15px;
+      cursor: grab;
+      user-select: none;
+      scrollbar-width: thin;
+      scrollbar-color: #007bff #f1f1f1;
+      -webkit-overflow-scrolling: touch;
+    }
+    .screenshots:active {
+      cursor: grabbing;
+    }
+    .screenshots img {
+      width: 180px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      pointer-events: none;
+    }
+    .screenshots::-webkit-scrollbar {
+      height: 8px;
+    }
+    .screenshots::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+    .screenshots::-webkit-scrollbar-thumb {
+      background: #007bff;
+      border-radius: 10px;
+    }
+
+    .cta {
+      background: #1a1a1a;
+      color: white;
+      padding: 30px;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .cta h2 { color: white; }
+    .btn {
+        display: inline-block;
+        background: #007bff;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .btn-playstore {
+        background: #01875F;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+      margin-top: 40px;
+      padding-bottom: 20px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    @media (max-width: 768px) {
+        .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <section class="section">
+      <h1>Roberto Ubatay Jr.</h1>
+      <div class="subtitle">.NET Developer</div>
+      <p>
+        A .NET Developer with 10 years of experience building and maintaining enterprise-grade financial, HR and payroll systems. Experienced in developing complex business logic and high-reliability backend applications supporting mission-critical modules within large-scale ERP environments.
+      </p>
+
+      <div>
+        <span class="badge">C#</span>
+        <span class="badge">VB.NET</span>
+        <span class="badge">ASP.NET Core Web API</span>
+        <span class="badge">Entity Framework Core</span>
+        <span class="badge">LINQ</span>                
+        <span class="badge">SQL Server (Stored Procedures)</span>
+        <span class="badge">Git</span>
+        <span class="badge">GitHub</span>
+        <span class="badge">GitHub Actions</span>
+        <span class="badge">N-Tier Architecture</span>
+        <span class="badge">SOLID</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Professional Experience</h2>
+      <div style="border-left: 3px solid #007bff; padding-left: 20px;">
+        <h3>Software Developer</h3>
+        <p><strong>Bluesky SoftApp, Inc | May 2015 - June 2025</strong></p>
+
+        <div class="project-card" style="padding: 20px; margin-bottom: 20px;">
+          <h4 style="margin-top: 0;">BIZ</h4>
+          <p style="font-size: 14px; color: #555;">Supported and enhanced a full-scale Enterprise Resource Planning (ERP) system used for financial, payroll and HR operations.</p>
+          <ul style="font-size: 14px; padding-left: 20px;">
+            <li>Maintained and enhanced core full-stack screens across Finance (GL, AP, AR, PO, Requisition) and HR/Payroll (Employees, Job and Payments, Deductions and Benefits, Timesheets, Salary Matrix); resolved complex bugs and updated mission-critical business logic.</li>
+            <li>Refactored the Document Approval Workflow Engine by implementing single-responsibility helper methods to improve maintainability and readability; introduced advanced routing features including "Email-Only" and "Review-Only" roles with automated status notifications.</li>
+            <li>Enhanced a batch document dispatch process by implementing a custom template parser. Developed logic to handle reserved keyword replacement and introduced "HTML-style" formatting (Bold, Italics, Underlining, Highlight) within PDF generation, significantly improving the professional output of employee and financial documents.</li>
+            <li>Engineered new end-to-end features for high-impact screens including Reimbursement Requests, Leave of Absence, and Retirement/Resignation integrating them seamlessly into the existing approval architecture.</li>
+            <li>Investigated and resolved critical bugs in the high-volume Batch Processing for HR, Payroll, and Financial data including payroll calculations, employee/financial imports/reporting and state reporting.</li>
+            <li>Maintained and enhanced system-wide security protocols and document-routing workflows within the System Admin module enforcing strict authorization and comprehensive audit trails.</li>
+            <li>Handled the full-cycle deployment of customer-specific builds across AWS Cloud and On-Premise servers via secure VPN/RDP, ensuring proper IIS configuration and SSRS report verification.</li> 
+          </ul>
+        </div>
+
+        <div class="grid">
+          <div class="project-card" style="padding: 15px; margin-bottom: 10px;">
+            <h4 style="margin-top: 0;">Tellermetrix Reporting Portal</h4>
+            <p style="font-size: 14px; color: #555;">Supported an in-house web app for store cash flow analytics.</p>
+            <ul style="font-size: 14px; padding-left: 20px;">
+              <li>Designed and maintained specialized SQL Stored Procedures and RDL reports to track and visualize real-time cash flow across retail stores.</li>
+            </ul>
+          </div>
+
+          <div class="project-card" style="padding: 15px; margin-bottom: 10px;">
+            <h4 style="margin-top: 0;">SIS (Student Information System)</h4>
+            <p style="font-size: 14px; color: #555;">Supported a management platform for educational institutions.</p>
+            <ul style="font-size: 14px; padding-left: 20px;">
+              <li>Provided maintenance support for enrollment, grading and student record modules.</li>  
+            </ul>
+          </div>
+        </div>
+
+        <div style="margin-top: 20px;">
+          <h4>Technical Environment</h4>
+          <span class="badge badge-tech">ASP.NET</span>
+          <span class="badge badge-tech">VB.NET</span>
+          <span class="badge badge-tech">ADO.NET / SQL Server (Stored Procedures)</span>
+          <span class="badge badge-tech">HTML / CSS</span>
+          <span class="badge badge-tech">SSRS RDL Reporting</span>
+          <span class="badge badge-tech">SQL Server Management Studio (SSMS)</span>
+          <span class="badge badge-tech">IIS</span>
+          <span class="badge badge-tech">AWS / VPN / RDP</span>
+          <span class="badge badge-tech">Perforce (Version Control)</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Featured Projects</h2>
+
+      <div class="project-card api-highlight">
+        <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap;">
+            <h3>KitaTrack Demo API</h3>
+            <span class="badge" style="background: #68217a; color: white;">Backend Architecture</span>
+        </div>
+        <p>A Web API built with .NET 10 for e-wallet transaction management. This project serves as a showcase for modern engineering patterns designed for scalability, maintainability and data security.</p>
+        
+        <div>
+          <h4>Architecture And Patterns</h4>
+          <ul>
+            <li><strong>N-Tier Architecture:</strong> Strict separation of concerns (Presentation, Application, Infrastructure).</li>
+            <li><strong>SOLID Principles:</strong> Implementation of decoupled, interface-driven logic to ensure high maintainability and testability.</li>
+            <li><strong>Security First:</strong> JWT Authentication with BCrypt hashing and resource-level authorization.</li>
+            <li><strong>Result Pattern:</strong> Implementation of functional error handling to ensure a predictable, exception-free business logic flow.</li>
+            <li><strong>Repository Pattern:</strong> Abstracting data access using Entity Framework Core for cleaner service logic.</li>
+          </ul>  
+        </div>
+
+        <div>
+            <h4>Technologies And Tools</h4>
+            <span class="badge badge-tech">.NET 10.0</span>
+            <span class="badge badge-tech">EF Core</span>
+            <span class="badge badge-tech">LINQ</span>
+            <span class="badge badge-tech">SQL Server</span>
+            <span class="badge badge-tech">JWT</span>
+            <span class="badge badge-tech">BCrypt</span>
+            <span class="badge badge-tech">GitHub Actions</span>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="http://kitatrack-demo-api.runasp.net/" target="_blank" class="btn">View Live Swagger UI</a>
+            <a href="https://github.com/rubatay-dev/KitaTrackDemo.Api" target="_blank" class="btn" style="background: #333;">GitHub Repository</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap;">
+            <h3>KitaTrack – Digital Transaction Ledger</h3>
+            <span class="badge" style="background: #e6fffa; color: #008577; border: 1px solid #b2f5ea; border-radius: 4px;">Live on Play Store</span>
+        </div>
+        <p>The ultimate digital ledger for GCash, Maya, and e-loading businesses in the Philippines. Replaces traditional paper "listahan" with a faster, smarter, and more secure mobile solution.</p>
+    
+        <div>
+            <h4>Key Features</h4>
+            <ul style="font-size: 14px;">
+              <li><strong>Fast Logging:</strong> Dedicated fields for Wallet Type, Cash In/Out, and automatically calculated fees.</li>
+              <li><strong>Advanced Analytics:</strong> Track daily/monthly profit and earnings at a glance.</li>
+              <li><strong>Advanced Search:</strong> Instantly find records via Reference Number, Phone Number, or Date.</li>
+              <li><strong>Offline-First:</strong> Full functionality without internet.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Mobile Tech Stack</h4>
+            <span class="badge badge-tech">Flutterflow</span>
+            <span class="badge badge-tech">Dart</span>
+            <span class="badge badge-tech">SQLite</span>
+            <span class="badge badge-tech">Firebase</span>
+            <span class="badge badge-tech">RevenueCat</span>
+            <span class="badge badge-tech">Admob</span>
+        </div>
+
+        <div style="margin-top: 15px;">
+            <a href="https://play.google.com/store/apps/details?id=com.rubataysoft.kitatrack" target="_blank" class="btn btn-playstore">View on Play Store</a>
+        </div>
+
+        <h4 style="margin-top: 25px;">App Interface</h4>
+        <div class="screenshots" id="screenshot-container">
+          <img src="images/home_page.png" alt="Home Page">         
+          <img src="images/transactions_list_page.png" alt="Transactions List Page">
+          <img src="images/analytics_page.png" alt="Analytics Page">
+          <img src="images/search_page.png" alt="Search Page">
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <h2>Looking for a .NET Talent?</h2>
+      <p>I am currently seeking opportunities to apply my 10 years of experience and modern .NET expertise to your next project.</p>
+      <p>
+        📧 <strong>roberto.ubatayjr@gmail.com</strong><br />
+        📍 Laguna, Philippines / Remote
+      </p>
+      <div style="margin-top: 20px;">
+          <a href="mailto:roberto.ubatayjr@gmail.com" class="btn">Send an Email</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Roberto Ubatay Jr.
+    </footer>
+  </div>
+
+  <script>
+    const slider = document.getElementById('screenshot-container');
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    slider.addEventListener('mousedown', (e) => {
+      isDown = true;
+      slider.classList.add('active');
+      startX = e.pageX - slider.offsetLeft;
+      scrollLeft = slider.scrollLeft;
+    });
+
+    slider.addEventListener('mouseleave', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mouseup', () => {
+      isDown = false;
+    });
+
+    slider.addEventListener('mousemove', (e) => {
+      if (!isDown) return;
+      e.preventDefault();
+      const x = e.pageX - slider.offsetLeft;
+      const walk = (x - startX) * 2;
+      slider.scrollLeft = scrollLeft - walk;
+    });
+  </script>
+</body>
+</html>
